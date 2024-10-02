@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('OpenSauceOne-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* Ocultar el desbordamiento */
+    background-color: red; /* Cambiar el fondo a rojo */
+    font-family: 'OpenSauceOne', Arial, sans-serif; /* Usar la fuente personalizada */
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white; /* Cambiar el color del texto a blanco para mejor contraste */
+    padding: 20px; /* Ajustar el padding si es necesario */
+}
+
+h1, h2, p {
+    margin: 5px; /* Reducir el margen entre los elementos */
+}
+
+.hidden {
+    display: none; /* Ocultar elementos con esta clase */
+}
+
+#error-message {
+    color: yellow; /* Color del mensaje de error */
+}
+
+/* Estilo para el contenedor del clima actual */
+#weather {
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo con opacidad */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-bottom: 20px; /* Espacio inferior */
+    width: 80%; /* Ancho del contenedor */
+    max-width: 400px; /* Ancho máximo */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para los rectángulos del pronóstico */
+.forecast-box {
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo con opacidad */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px;
+    margin: 10% 0; /* Espacio superior e inferior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    text-align: center; /* Centrar el texto */
+}
