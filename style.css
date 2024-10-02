@@ -42,6 +42,6 @@ h1, h2, p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
     margin: auto; /* Espacio superior e inferior, centrado horizontalmente */
     text-align: center; /* Centrar el texto dentro del rectángulo */
-    max-width: 400px; /* Limitar el ancho máximo del rectángulo */
+    max-width: 100px; /* Limitar el ancho máximo del rectángulo */
     width: 90%; /* Asegurar que ocupe un porcentaje del contenedor */
 }
