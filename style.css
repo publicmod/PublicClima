@@ -17,7 +17,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Centrar verticalmente */
     flex-direction: column;
     color: white; /* Cambiar el color del texto a blanco para mejor contraste */
     padding: 20px; /* Ajustar el padding si es necesario */
@@ -34,14 +34,25 @@ h1, h2, p {
 #error-message {
     color: yellow; /* Color del mensaje de error */
 }
+
 /* Estilo para el contenedor del clima actual */
 #weather {
     background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo con opacidad */
     border-radius: 30px; /* Bordes redondeados */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    margin: auto; /* Espacio superior e inferior, centrado horizontalmente */
-    text-align: center; /* Centrar el texto dentro del rectángulo */
-    max-width: 100px; /* Limitar el ancho máximo del rectángulo */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    max-width: 400px; /* Limitar el ancho máximo del rectángulo */
     width: 90%; /* Asegurar que ocupe un porcentaje del contenedor */
+    text-align: center; /* Centrar el texto dentro del rectángulo */
+}
+
+/* Estilo para los rectángulos del pronóstico */
+.forecast-box {
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo con opacidad */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px;
+    margin: 10% 0; /* Espacio superior e inferior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    text-align: center; /* Centrar el texto */
 }
