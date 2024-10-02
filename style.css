@@ -34,15 +34,14 @@ h1, h2, p {
 #error-message {
     color: yellow; /* Color del mensaje de error */
 }
-
 /* Estilo para el contenedor del clima actual */
 #weather {
     background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo con opacidad */
     border-radius: 30px; /* Bordes redondeados */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    margin-bottom: 20px; /* Espacio inferior */
+    margin: 20px auto; /* Espacio superior e inferior, centrado horizontalmente */
     text-align: center; /* Centrar el texto dentro del rectángulo */
     max-width: 400px; /* Limitar el ancho máximo del rectángulo */
-    width: 100%; /* Asegurar que ocupe el ancho del contenedor */
+    width: 90%; /* Asegurar que ocupe un porcentaje del contenedor */
 }
