@@ -6,6 +6,8 @@ function translateWeatherCondition(condition) {
     switch (condition.toLowerCase()) {
         case 'clear':
             return 'Despejado';
+        case 'sunny':
+            return 'Soleado';
         case 'partly cloudy':
             return 'Parcialmente nublado';
         case 'cloudy':
