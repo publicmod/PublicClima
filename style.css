@@ -43,7 +43,7 @@ h1, h2, p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
     margin-bottom: 20px; /* Espacio inferior */
     margin-left: -8%;
-    margin-top: 20%;
+    margin-top: 40%;
     width: auto; /* Ancho del contenedor */
     max-width: 400%; /* Ancho máximo */
     text-align: center; /* Centrar el texto */
